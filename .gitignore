@@ -1,7 +1,7 @@
 /javadoc
 
 /target
-.idea
-/workspace.xml
+
+.idea/workspace.xml
 
 /out
