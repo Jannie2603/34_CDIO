@@ -4,39 +4,27 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>34_del1</groupId>
-    <artifactId>34_del1</artifactId>
+    <groupId>groupId</groupId>
+    <artifactId>gruppe34.cdio2</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <repositories>
         <repository>
-            <id>Matador_GUI-repository</id>
-            <url>https://github.com/diplomit-dtu/Matador_GUI/raw/repository</url>
+            <id> Matador_GUI-repository </id>
+            <url> https://github.com/diplomit-dtu/Matador_GUI </url>
             <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
+                <enabled> true </enabled>
+                <updatePolicy> always </updatePolicy>
             </snapshots>
         </repository>
     </repositories>
-
     <dependencies>
         <dependency>
-            <groupId>diplomitdtu</groupId>
-            <artifactId>matadorgui</artifactId>
-            <version>3.1.2</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
+            <groupId> diplomitdtu </groupId>
+            <artifactId> matadorgui </artifactId>
+            <version> 3.1.2 </version>
         </dependency>
     </dependencies>
 
+    
 </project>
