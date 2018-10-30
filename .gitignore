@@ -1,7 +1,8 @@
 /javadoc
-
 /target
-
 .idea/workspace.xml
-
 /out
+*.class  
+*.jar
+*.war
+*.ear
